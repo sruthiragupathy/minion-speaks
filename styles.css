@@ -8,13 +8,14 @@
 }
 
 :root{
-    --yellow:#FCD34D
+    --yellow:#FCD34D;
+    --light-yellow:#FFFBEB;
+    --hover-yellow:#FDE68A;
 }
 
 body{
-    background:#FEF3C7;
+    background:var(--light-yellow);
 }
-
 
 .nav{
     padding:1.5rem;
@@ -31,6 +32,7 @@ body{
     flex-direction: column;
     justify-content: space-between;
     align-items:flex-start;
+    z-index:0;
 }
 
 #translateBtn{
@@ -41,7 +43,7 @@ body{
 }
 
 #translateBtn:hover{
-    background:#FEF3C7;
+    background:var(--hover-yellow);
 }
 
 p{
@@ -64,5 +66,5 @@ footer{
     background:var(--yellow);
     text-align:center;
     padding:1rem;
-    line-height: 2rem;
+    line-height: 1.5rem;
 }
