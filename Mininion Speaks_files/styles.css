@@ -15,8 +15,7 @@
 
 body{
     background:var(--light-yellow);
-    height:100vh;
-
+    height:100%;
 }
 
 .nav{
@@ -64,7 +63,6 @@ p{
 footer{
     
     bottom:0;
-    position:absolute;
     width:100%;
     background:var(--yellow);
     text-align:center;
